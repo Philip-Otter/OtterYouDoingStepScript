@@ -40,16 +40,22 @@ cls
 type %Input% > BHAtemp.bat
 
 :: The box spacing is set to match my name length by default.
-echo::===============================================:: >> %Input%
+:: This first line should overwrite the input file.
+echo::===============================================:: > %Input%
 echo::%Name%                                   :: >> %Input%
 echo::%date%                                 :: >> %Input%
 echo::                                               :: >> %Input%
 echo::Info                                           :: >> %Input%
 echo::===============================================:: >> %Input%
+type BHAtemp.bat >> %input%
 
+cls
 echo %input% now reads:  
 echo.
+echo.
 type %input%
+echo.
+echo.
 :: Default for choice is y or n
 choice /M "Would you like to revert your file?"
 if ERRORLEVEL ==1 goto :revert
@@ -71,8 +77,11 @@ exit
 :revert
 type BHAtemp.bat > %Input%
 del BHAtemp.bat
+cls
 echo your file has been reverted and now reads:
+echo.
 type %Input%
+echo.
 pause
 exit
 
