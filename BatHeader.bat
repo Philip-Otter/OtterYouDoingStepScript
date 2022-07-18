@@ -1,8 +1,12 @@
 ::===============================================::
-::Name                                           ::
-::DATE                                           ::
+::Philip Otter                                   ::
+::07/18/2022                                     ::
 ::                                               ::
-::Info                                           ::
+::This is my batch script that adds a commented  ::
+::header box (like this one) to the beginning of ::
+::A given batch file. This should help me        ::
+::personally save time whenever I want to write  ::
+::a new script.                                  ::
 ::===============================================::
 
 
