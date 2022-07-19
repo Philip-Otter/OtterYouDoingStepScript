@@ -57,11 +57,19 @@ type %input%
 echo.
 echo.
 :: Default for choice is y or n
-choice /M "Would you like to revert your file?"
-if ERRORLEVEL ==1 goto :revert
-if ERRORLEVEL ==2 goto :keep
+choice /C YN /M "Would you like to revert your file?"
+if ERRORLEVEL 2 goto :Keep
 
-
+:: Reverts our file to original
+type BHAtemp.bat > %Input%
+del BHAtemp.bat
+cls
+echo your file has been reverted and now reads:
+echo.
+type %Input%
+echo.
+pause
+exit
 
 
 :doesNotExist
@@ -74,23 +82,13 @@ exit
 del BHAtemp.bat
 exit
 
-:revert
-type BHAtemp.bat > %Input%
-del BHAtemp.bat
-cls
-echo your file has been reverted and now reads:
-echo.
-type %Input%
-echo.
-pause
-exit
-
 
 :keep
 del BHAtemp.bat
-echo Goodbye!
+echo Okay! Goodbye!
 pause
 exit
+
 
 :delOldTemp
 del BHAtemp.bat
