@@ -12,7 +12,7 @@
 
 @echo off
 echo ::===============================================::
-echo ::               Batch Header Adder              ::
+echo ::                .BAT HEAD 1.0.0                ::
 echo ::                  Philip Otter                 ::
 echo ::                                               ::
 echo ::                Created July 2022              ::
