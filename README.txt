@@ -1,4 +1,4 @@
-These are just a collection of batch scripts that I have made to make my life easier. Feel free to use them or modify them however you may see fit.
+These are just a collection of scripts that I have made to make my life easier. Feel free to use or modify them.
 You are using these at your own risk please do your research and look at the code before you run something.
 
 Listed below will be the scripts and a brief description of their function.
