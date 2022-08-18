@@ -4,4 +4,9 @@ You are using these at your own risk please do your research and look at the cod
 Listed below will be the scripts and a brief description of their function.
 
 BatHead.bat
-    *Batch script that adds a commented header to a desired file. Designed to save me time when making batch scritps.
+    *Batch script that adds a commented header to a desired file. Designed to save me time when making batch scripts.
+
+FullClock.sh
+    *Bash Script that provides a refreshing terminal clock.
+    *Designed to be used while fullscreen in terminator
+    *Add to your path and drop the .sh 
