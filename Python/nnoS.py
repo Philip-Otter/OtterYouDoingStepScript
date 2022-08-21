@@ -1,7 +1,12 @@
-#nslookup
-#name
-#output
-#Striper
+############################
+########### nnoS ###########
+######### nslookup #########
+########### name ###########
+########## output ##########
+######### Striper ##########
+## Created by Philip Otter #
+####Created August 2022 ####
+############################
 
 select=input("Please provide the name of the file that you would like worked through\n")
 print("\n\n")
