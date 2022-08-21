@@ -3,10 +3,24 @@ You are using these at your own risk please do your research and look at the cod
 
 Listed below will be the scripts and a brief description of their function.
 
+
+:::::::::::::::::::::::::::::::::::::::::::
+BATCH
+:::::::::::::::::::::::::::::::::::::::::::
 BatHead.bat
     *Batch script that adds a commented header to a desired file. Designed to save me time when making batch scripts.
 
+
+:::::::::::::::::::::::::::::::::::::::::::
+BASH
+:::::::::::::::::::::::::::::::::::::::::::
 FullClock.sh
     *Bash Script that provides a refreshing terminal clock.
     *Designed to be used while fullscreen in terminator
     *Add to your path and drop the .sh 
+
+:::::::::::::::::::::::::::::::::::::::::::
+PYTHON
+:::::::::::::::::::::::::::::::::::::::::::
+nnoS.py
+    *Python Script that aims to strip the returned names from nslookup
