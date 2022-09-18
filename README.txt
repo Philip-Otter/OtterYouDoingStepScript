@@ -22,5 +22,6 @@ FullClock.sh
 :::::::::::::::::::::::::::::::::::::::::::
 PYTHON
 :::::::::::::::::::::::::::::::::::::::::::
+MOVED TO ITS OWN REPOSITORY
 nnoS.py
     *Python Script that aims to strip the returned names from nslookup
